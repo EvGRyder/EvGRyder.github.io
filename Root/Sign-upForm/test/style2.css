@@ -9,11 +9,9 @@
 }
 
 .left {
-    background-color: blue;
-    width: 50%;
-    border: solid;
-
-    padding: 10px;
+    width: 55%;
+    border-right: solid;
+    background-image: url("tren.png");
 }
 
 img {
@@ -22,31 +20,29 @@ img {
 }
 
 #splash {
-    background-color: beige;
     font-size: x-large;
+    font-family: monospace;
+    color: white;
     margin-top: 100%;
+    width: 100%;
     text-align: center;
+    border-radius: 10px;
+    background-color: hsla(32, 88%, 19%, 0.801);
 }
 
 .right {
-    background-color: red;
-    width: 100%;
-    border: solid;
-    
+    width: 100%;    
     padding: 10px;
 }
 
 header {
-    background-color: palegoldenrod;
     height: 33vh;
 }
 
 section {
-    background-color: aquamarine;
 }
 
 form {
-    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -57,7 +53,6 @@ form {
     padding-top: 10px;
     margin: 10px;
     width: 33%;
-    background-color: blue;
 
     font-weight: bold;
 }
