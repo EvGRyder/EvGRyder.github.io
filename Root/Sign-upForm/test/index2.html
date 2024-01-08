@@ -9,11 +9,11 @@
 <body>
     <div class="main">
         <div class="left">
-            <section id="splash">    
+            <div id="splash">    
                 The Gears Have Begun
                 <img src="./gear.png" alt="">
                 <h1>Turning</h1>
-            </section>
+            </div>
         </div>
         
         <div class="right">
@@ -33,8 +33,8 @@
                 <form action="/stuff" method="get" id="gearForm">
 
                     <div class="formElement">
-                        <label for="firstName">First Name:</label><br>
-                        <input type="text" name="firstName" id="firstName">
+                        <label for="firstName">*First Name:</label><br>
+                        <input type="text" name="firstName" id="firstName" required>
                     </div>
 
                     
@@ -44,27 +44,31 @@
                     </div>
                     
                     <div class="formElement">
-                        <label for="firstName">Email:</label><br>
-                        <input type="text" name="email" id="email">
+                        <label for="firstName">*Email:</label><br>
+                        <input type="email" name="email" id="email" required>
                     </div>
 
                     <div class="formElement">
                         <label for="firstName">Phone Number:</label><br>
-                        <input type="text" name="phoneNumber" id="phoneNumber">
+                        <input type="tel" name="phoneNumber" id="phoneNumber">
                     </div>
 
                     <div class="formElement">
-                        <label for="firstName">Password:</label><br>
-                        <input type="text" name="password" id="password">
+                        <label for="firstName">*Password:</label><br>
+                        <input type="password" name="password" id="password" required>
                     </div>
 
                     <div class="formElement">
-                        <label for="firstName">Confirm Password:</label><br>
-                        <input type="text" name="cPassword" id="cPassword">
+                        <label for="firstName">*Confirm Password:</label><br>
+                        <input type="password" name="cPassword" id="cPassword" required>
                     </div>
-                </form>
-                <button type="submit" form="gearForm" value="Submit">Buttan</button>
+                </form><br>
+                <button type="submit" form="gearForm" value="Submit" id="gearButton">Create Account</button>
             </section>
+
+            <footer>
+                <img src="" alt="">
+            </footer>
         </div>
     </div>
 
